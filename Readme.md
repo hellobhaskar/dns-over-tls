@@ -3,9 +3,10 @@ Its multithreaded and can listen to both TCP & UDP on port 53
 
 * Sample usage:
 
+```
 docker build -t dnsserv .
 docker run -d -name=dnssrv --net=host --name=dnsserv -t dnssrv
-
+```
 
 * Note:
 --net=host is important
